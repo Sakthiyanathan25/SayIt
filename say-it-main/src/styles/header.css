@@ -1,0 +1,34 @@
+.menu-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 0;
+    transition: height 0.3s ease-out;
+  }
+  
+  .menu-links.open {
+    height: auto;
+  }
+  
+  .nav-link {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+    transition: background-color 0.3s ease-out, color 0.3s ease-out;
+  }
+  
+  .nav-link:hover {
+    background-color: #eee;
+    color: #fff;
+  }
+  
+  .contact-link {
+    padding: 10px 20px;
+    background-color: #3b82f6;
+    color: #fff;
+    border-radius: 20px;
+    text-align: center;
+  }
+  
